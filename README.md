@@ -1,18 +1,17 @@
-# News
-A simple news interface for hacker news.
+# Notícias
+Uma interface de notícias simples para notícias de hackers.
 
-## Installation
+## Instalação
 
 ``` bash
-yarn
-yarn run build
+fio
+construção de corrida de fios
 ```
 
-## Usage
+## Uso
 
-Open index.html on your folder and:
+Abra index.html em sua pasta e:
 
-- Press `L` to open the item.
-- Press `;` (`ñ` in spanish keyboards) to hide item.
-- Press `Enter` to open the comments on hackernews.
-# Hack-News
+- Pressione `L` para abrir o item.
+- Pressione `;` (`ñ` em teclados espanhóis) para ocultar o item.
+- Pressione `Enter` para abrir os comentários no hackernews.
