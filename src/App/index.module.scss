@@ -1,0 +1,47 @@
+article {
+    display: flex;
+    padding: 0 1rem;
+
+    &.SELECTED {
+        border: 1px dashed #ccc;
+        background-color: #efefef;
+    }
+
+    & > aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 4rem;
+        padding-right: 0.5rem;
+        margin-bottom: 0.25rem;
+        margin-top: 0.25rem;
+        border-right: 1px solid #ccc;
+
+
+        & > div {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.25rem;
+
+            & > svg {
+                width: 1rem;
+                fill: #999;
+            }
+
+            & > span {
+                font-family: monospace;
+                color: #666;
+            }
+        }
+    }
+
+    & > h3 {
+        margin-left: 1rem;
+        font-weight: normal;
+        & > a {
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 1.2em;
+        }
+    }
+}
